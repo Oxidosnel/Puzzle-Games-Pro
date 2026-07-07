@@ -37,6 +37,25 @@ body{background:#f8e8e8;color:#333;font-family:-apple-system,BlinkMacSystemFont,
 .recommend .game-grid a{border-radius:10px}
 
 .footer{text-align:center;padding:20px;font-size:12px;color:#999;margin-top:auto}
+.footer a{color:#666;text-decoration:none;margin:0 4px}
+.footer a:hover{text-decoration:underline}
+
+.site-intro{max-width:800px;margin:20px auto;padding:16px 20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.site-intro h1,.site-intro h2{font-size:18px;margin-bottom:8px;color:#222}
+.site-intro p{font-size:14px;line-height:1.7;color:#555;margin-bottom:12px}
+
+.game-content{max-width:800px;margin:16px auto;padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.game-content h1{font-size:20px;margin-bottom:12px;color:#222}
+.game-content h2{font-size:16px;margin:16px 0 8px;color:#333}
+.game-content p{font-size:14px;line-height:1.7;color:#555;margin-bottom:10px}
+.game-content ul{padding-left:20px;margin-bottom:12px}
+.game-content li{font-size:14px;line-height:1.8;color:#555}
+
+.page-content{max-width:800px;margin:60px auto 20px;padding:24px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.page-content h1{font-size:22px;margin-bottom:16px;color:#222}
+.page-content h2{font-size:17px;margin:20px 0 8px;color:#333}
+.page-content p,.page-content li{font-size:14px;line-height:1.8;color:#555}
+.page-content ul{padding-left:20px;margin-bottom:12px}
 
 @media(min-width:768px){
   .game-grid{grid-template-columns:repeat(6,1fr);gap:8px;padding:12px;max-width:900px;margin:0 auto}
